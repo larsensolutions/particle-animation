@@ -1,0 +1,19 @@
+{
+  "name": "particle-animation",
+  "version": "1.0.3",
+  "description": "Add a soothing animation to your web site to add life!",
+  "main": "index.js",
+  "keywords": [
+    "animation",
+    "canvas",
+    "particles",
+    "fun",
+    "cool",
+    "candy"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erik Andreas Larsen",
+  "license": "ISC"
+}
