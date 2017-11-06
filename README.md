@@ -61,12 +61,19 @@ animation.run();
 
 
 ## Release History
+* 1.0.4
+    * Just updating readme file
 * 1.0.0
     * First release
 
 ## Author
 
 Erik Andreas Larsen– [@mapnoter](https://twitter.com/mapnoter) – erik@larsensolutions.no
+
+## Code repo and issue reporting
+
+[Github](https://github.com/larsensolutions/particle-animation)
+[Issue reporting](https://github.com/larsensolutions/particle-animation/issues)
 
 ## License
 

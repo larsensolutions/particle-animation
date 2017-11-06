@@ -11,6 +11,10 @@
     "cool",
     "candy"
   ],
+  "repository" :{ 
+    "type" : "git"
+  , "url" : "https://github.com/larsensolutions/particle-animation.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
