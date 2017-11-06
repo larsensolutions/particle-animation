@@ -70,7 +70,7 @@ animation.run();
 
 Erik Andreas Larsen– [@mapnoter](https://twitter.com/mapnoter) – erik@larsensolutions.no
 
-## Code repo and issue reporting
+## Code repository and issue reporting
 
 - [Github](https://github.com/larsensolutions/particle-animation)
 - [Issue reporting](https://github.com/larsensolutions/particle-animation/issues)
