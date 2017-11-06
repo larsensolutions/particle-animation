@@ -72,8 +72,8 @@ Erik Andreas Larsen– [@mapnoter](https://twitter.com/mapnoter) – erik@larsen
 
 ## Code repo and issue reporting
 
-[Github](https://github.com/larsensolutions/particle-animation)
-[Issue reporting](https://github.com/larsensolutions/particle-animation/issues)
+- [Github](https://github.com/larsensolutions/particle-animation)
+- [Issue reporting](https://github.com/larsensolutions/particle-animation/issues)
 
 ## License
 
