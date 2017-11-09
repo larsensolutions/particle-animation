@@ -4,7 +4,7 @@
 
 > Add a cool animation to your web site to add life! Tree of nodes pulling on each other randomly to create a soothing behaviour. Starts with an offsets and always seek the center of canvas.
 
-![](http://larsensolutions.no/demos/header.png)
+![](http://larsensolutions.no/demos/particle-animation.gif)
 
 ## Installation
 
@@ -61,7 +61,7 @@ animation.run();
 
 
 ## Release History
-* 1.0.4
+* 1.0.1 to 1.05
     * Just updating readme file
 * 1.0.0
     * First release
