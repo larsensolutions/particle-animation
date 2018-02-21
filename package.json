@@ -19,5 +19,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Erik Andreas Larsen",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.18.1"
+  }
 }
