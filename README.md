@@ -1,5 +1,7 @@
 # Particle animation
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c4f0bb6abb50414791c0721661de599c)](https://www.codacy.com/app/larsensolutions/particle-animation?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=larsensolutions/particle-animation&amp;utm_campaign=Badge_Grade)
+
 [Live demo](http://larsensolutions.no/demos/)
 
 > Add a cool animation to your web site to add life! Tree of nodes pulling on each other randomly to create a soothing behaviour. Starts with an offsets and always seek the center of canvas.
