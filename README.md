@@ -63,7 +63,7 @@ animation.run();
 
 
 ## Release History
-* 1.0.1 to 1.05
+* 1.0.1 to 1.06
     * Just updating readme file
 * 1.0.0
     * First release

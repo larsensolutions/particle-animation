@@ -18,7 +18,7 @@ export default class Node {
         this.level = 0;
     }
 
-    setPosition = function () {
+    setPosition() {
         this.position = new Vector(this.parent.position.x + Random.range(-50, 50), this.parent.position.y + Random.range(-50, 50));
     }
 
@@ -27,7 +27,7 @@ export default class Node {
         this.startDistance = Vector.distance(this.position,this.destination);
     }
 
-    setRandomDestination = function () {
+    setRandomDestination() {
         var dX = 0;
         var dY = 0;
         if (this.parent !== null) {
@@ -43,11 +43,11 @@ export default class Node {
         this.startDistance = Math.sqrt((Math.pow(this.position.x - this.destination.x, 2) + Math.pow(this.position.y - this.destination.y, 2)));;
     }
 
-    getDestinationAngle = function () {
+    getDestinationAngle() {
         return Math.atan2((this.destination.y - this.position.y), (this.destination.x - this.position.x));
     }
 
-    move = function () {
+    move() {
 
         var distance = Math.sqrt((Math.pow(this.position.x - this.destination.x, 2) + Math.pow(this.position.y - this.destination.y, 2)));
         var percent = 100 - ((distance / this.startDistance) * 100);
@@ -74,7 +74,7 @@ export default class Node {
         this.position.add(velocity);
     };
 
-    addChild = function (childNode) {
+    addChild(childNode) {
         childNode.level = this.level + 1;
         childNode.parent = this;
         childNode.setPosition();
@@ -83,7 +83,7 @@ export default class Node {
         this.children.push(childNode);
         return childNode;
     }
-    reachedTarget = function () {
+    reachedTarget() {
         var distance = Math.sqrt((Math.pow(this.position.x - this.destination.x, 2) + Math.pow(this.position.y - this.destination.y, 2)));
         if (this.level === 0) {
             return distance < 10;
@@ -91,7 +91,7 @@ export default class Node {
         return distance < 20;
     }
 
-    update = function () {
+    update() {
         if (this.reachedTarget()) {
             if (this.wait) {
                 this.waitTime++;
