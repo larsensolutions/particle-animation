@@ -35,7 +35,7 @@ export default {
             }
         }
 
-        var root = new Node(hex2rgba(options.color, 1), Random.item(options.palette), new Vector(options.canvasSize.x/4, options.canvasSize.y/2));
+        var root = new Node(hex2rgba(options.color, 1), Random.item(options.palette), new Vector(options.canvasSize.x/2, options.canvasSize.y/2));
         root.acceleration = 2;
         root.setDestination(options.canvasSize.x/2, options.canvasSize.y/3);
         root.size = 6;
