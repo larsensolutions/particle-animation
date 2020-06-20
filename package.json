@@ -1,6 +1,6 @@
 {
   "name": "particle-animation",
-  "version": "1.0.8",
+  "version": "1.1.1",
   "description": "Add a soothing animation to your web site to add life!",
   "main": "index.js",
   "keywords": [
